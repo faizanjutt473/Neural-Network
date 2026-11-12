@@ -1,0 +1,25 @@
+Activation: relu  (network 5-4-4-3, eps=1e-05, float64)
+  layer0.W   relative error = 9.489e-11  PASS
+  layer0.b   relative error = 8.292e-11  PASS
+  layer1.W   relative error = 3.189e-11  PASS
+  layer1.b   relative error = 2.636e-11  PASS
+  layer2.W   relative error = 4.815e-11  PASS
+  layer2.b   relative error = 1.671e-11  PASS
+
+Activation: tanh  (network 5-4-4-3, eps=1e-05, float64)
+  layer0.W   relative error = 1.302e-10  PASS
+  layer0.b   relative error = 5.487e-11  PASS
+  layer1.W   relative error = 3.576e-11  PASS
+  layer1.b   relative error = 2.008e-11  PASS
+  layer2.W   relative error = 4.019e-11  PASS
+  layer2.b   relative error = 1.468e-11  PASS
+
+Activation: sigmoid  (network 5-4-4-3, eps=1e-05, float64)
+  layer0.W   relative error = 1.507e-09  PASS
+  layer0.b   relative error = 4.092e-09  PASS
+  layer1.W   relative error = 2.977e-10  PASS
+  layer1.b   relative error = 8.613e-11  PASS
+  layer2.W   relative error = 2.764e-11  PASS
+  layer2.b   relative error = 2.152e-11  PASS
+
+RESULT: ALL GRADIENTS CORRECT
